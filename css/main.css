@@ -22,6 +22,10 @@ body {
 	min-height: 100%;
 	position: relative;
 }
+
+img {
+	-ms-interpolation-mode: bicubic;
+}
 body {
 	font-family: 'Gotham SSm A', 'Gotham SSm B', helvetica, sans-serif;
 	font-size: 14px;
@@ -2030,8 +2034,6 @@ ul.widget-posts {
 .built-by {
 	background:url(../images/glasses-laptop.jpg);
 	background-size: cover;
-	padding-bottom: 70px !important; 
-	padding-top: 126px !important;
 }
 
 .software-button {
@@ -2332,7 +2334,10 @@ ul.carousel-items > li {
 }
 .tab-pane {
 	width:100%;
-	top: -14% !important;
+	top: 5% !important;
+}
+.ebay .tab-pane {
+	top:-15% !important;
 }
 .tab-pane img.screenshot {
 	width: 75%;
@@ -2349,13 +2354,15 @@ ul.carousel-items > li {
 }
 
 .macbook-bg {
-	background:url(../images/macbook.png);
+	background:url(../images/macbook-ie2.png);
 	width: auto;
-	background-size: 82%;
-	background-position: 50% 118%;
+	background-size: 100%;
+	background-position: bottom;
 	height: auto;
 	background-repeat: no-repeat;
 	padding: 0 !important;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/macbook-ie.png', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/macbook-ie.png', sizingMethod='scale')";
 }
 
 .macbook-bg2

@@ -224,7 +224,7 @@ a.readmore:hover i {
 	background-color: #e3e7e8;
 }
 .section-grey {
-	background-color: #F3F2F0;
+	background-color: #F5F2EF;
 }
 .section-lightorange {
 	background-color:#FA9D5F;
@@ -1706,283 +1706,7 @@ background-color: #f2f2f2 border-bottom: 0
 	padding: 0px 0 25px 0;
 	border-bottom: 1px solid #ddd
 }
-/*------------------------------------------------*/
-/*  pie chart
-/*------------------------------------------------*/
-.chart-shortcode {
-	position: relative;
-	text-align: center;
-}
-.chart-shortcode.chart-center-yes {
-	margin: 0 auto;
-}
-.chart-shortcode canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.chart-shortcode span {
-	font-size: 16px;
-	vertical-align: -1px;
-	color: #666
-}
-.chart-shortcode.chart-140 span {
-	font-size: 36px;
-	vertical-align: 0px;
-}
-.chart-shortcode.chart-140 span i {
-	vertical-align: -4px;
-}
-.chart-shortcode.chart-220 span {
-	font-size: 50px;
-	vertical-align: 2px;
-}
-.chart-shortcode.chart-220 span i {
-	vertical-align: -6px;
-}
-/*------------------------------------------------*/
-/*  Skill bars
-/*------------------------------------------------*/
-.progress {
-	margin-bottom: 15px;
-	background-color: #eee;
-	border-radius: 50px
-}
-.progress .bar {
-	height: 15px;
-	width: 0px;
-	display: block;
-	background-color: #ed6741;
-	position: relative;
-	border-radius: 50px
-}
-.progress-wrap p {
-	margin: 0px 0px 4px 5px!important;
-	font-weight: 400;
-}
-.progress-wrap p:first-letter {
-	text-transform: uppercase
-}
-.progress .bar {
-	overflow: visible!important;
-	position: relative;
-}
-.progress-wrap strong {
-	color: #222;
-	font-weight: 600;
-	line-height: 15px;
-	margin-left: 8px;
-	opacity: 0
-}
-/*------------------------------------------------*/
-/*  Person
-/*------------------------------------------------*/
-.person .flip-container {
-	-webkit-perspective: 1000;
-	-moz-perspective: 1000;
-	perspective: 1000;
-}
-.person .flip-container:hover .flipper {
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-}
-.person .flip-container:hover .flipper .image img {
-	opacity: 0;
-}
-.person .flip-container:hover .flipper .image .overlay {
-	opacity: 1;
-}
-.person .flip-container .flipper {
-	-webkit-transition: -webkit-transform 0.6s;
-	-webkit-transform-style: preserve-3d;
-	-moz-transition: -moz-transform 0.6s;
-	-moz-transform-style: preserve-3d;
-	transition: transform 0.6s;
-	transform-style: preserve-3d;
-	position: relative;
-	width: 100%;
-}
-.person .flip-container .image img,
-.person .flip-container .overlay {
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition: opacity 0.6s;
-	-moz-transition: opacity 0.6s;
-	-ms-transition: opacity 0.6s;
-	-o-transition: opacity 0.6s;
-	transition: opacity 0.6s;
-}
-.person .flip-container .overlay {
-	width: 100%;
-	height: 100%;
-	background-color: #ed6741
-}
-.person .flip-container .overlay .overlay-content {
-	-webkit-transform: rotateY(180deg);
-	-moz-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-}
-.person {
-	position: relative
-}
-.person h3 {
-	display: inline-block;
-	line-height: 28px;
-	margin-bottom: 0;
-	font-size: 14px !important;
-	font-weight: 500;
-}
-.person h6 {
-	display: inline-block;
-	padding-left: 25px;
-	line-height: 28px;
-	float: right;
-	border-left: 1px solid #eee;
-	margin-bottom: 0
-}
-.person .contact-info {
-	display: block;
-	color: #fff;
-	font-size: 15px;
-	line-height: 24px;
-	margin-bottom: 10px;
-	text-align: center;
-	letter-spacing: 1px;
-	width: 100%;
-	padding-right: 10%;
-	font-weight: 300
-}
-.person .contact-info i {
-	margin-right: 10px;
-}
-.person .person-info {
-	padding: 15px 0 10px;
-	border-bottom: 1px solid #eee;
-	display: block;
-}
-.person p {
-	margin: 15px 0px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #eee
-}
-.pricing-table {
-	margin: 0 -2px 50px!important
-}
-.pricing-table [class*="span"] {
-	padding: 0 2px!important
-}
-.pricing-table .pricing-column {
-	width: 100%
-}
-.pricing-table .pricing-column .title-box {
-	background-color: #39393d;
-	color: #fff;
-	padding: 25px 10px;
-	display: block;
-	text-align: center;
-	border-top: 3px solid #ed6741;
-	margin-bottom: 4px;
-}
-/*------------------------------------------------*/
-/* Pricing Tables
-/*------------------------------------------------*/
-.pricing-table .pricing-column .title-box .icon {
-	font-size: 18px;
-	display: inline-block
-}
-.pricing-table .pricing-column .title-box h2 {
-	color: #fff;
-	font-size: 17px;
-	text-transform: uppercase;
-	margin: 10px 0 0;
-	letter-spacing: 3px
-}
-.pricing-table .pricing-column .pricing-box {
-	text-align: center;
-	padding: 20px 5px 30px;
-	background-color: transparent;
-	margin-bottom: 4px;
-}
-.pricing-table .pricing-column .pricing-box .price {
-	display: inline-block;
-	font-size: 90px;
-	font-weight: 300;
-	color: #555;
-	padding: 0 0 0 10px;
-	line-height: 90px;
-	position: relative
-}
-.pricing-table .pricing-column .pricing-box .dollor {
-	position: absolute;
-	left: 0;
-	font-size: 22px;
-	font-weight: 300;
-	top: -18px;
-	color: #bbb
-}
-.pricing-table .pricing-column .pricing-box .price-info {
-	font-size: 13px;
-	color: #bbb;
-	font-style: italic;
-	text-align: center;
-	margin-top: 20px
-}
-.pricing-table .pricing-column .pricing-box .month {
-	position: relative;
-	display: inline-block;
-	bottom: -0px;
-	font-size: 14px;
-	font-weight: normal;
-	color: #bbb;
-	left: 0px
-}
-.pricing-table .pricing-column .feature-list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.pricing-table .pricing-column .feature-list li {
-	background-color: #f2f2f2;
-	margin-bottom: 4px;
-	display: block;
-	padding: 20px 15px;
-	text-align: center
-}
-.pricing-table .pricing-column .pricing-signup {
-	background-color: #f2f2f2;
-	padding: 20px 10px;
-	text-align: center
-}
-.plan-comparison ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	border-right: 1px solid #d8d8d8;
-	border-left: 1px solid #d8d8d8;
-}
-.plan-comparison ul li {
-	padding: 10px 0;
-	list-style-type: none;
-	border-bottom: 1px dashed #ddd
-}
-.plan-comparison ul li:last-child {
-	border-bottom: none
-}
-.plan-free {
-	color: white;
-	padding: 35px 0;
-	clear: both
-}
-.plan-free p {
-	font-size: 16px;
-	margin: 0 0 15px 0
-}
-.plan-free-title {
-	font-weight: 500;
-	font-size: 23px;
-}
+
 /*------------------------------------------------*/
 /*  Dividers
 /*------------------------------------------------*/
@@ -2462,20 +2186,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 /*------------------------------------------------*/
 /* contact form
 /*------------------------------------------------*/
-.wpcf7-form input[type="text"],
+.teika-form input[type="text"],
 input[type="email"],
 .comment-form input[type="text"] {
 	width: 100%;
 	max-width: 100%;
 	margin: 0;
 }
-.wpcf7-form-control-wrap,
+.teika-form-control-wrap,
 .comment-form .control-wrap {
 	position: relative;
 	overflow: hidden;
 	margin-bottom:15px
 }
-.wpcf7-form-control-wrap .icon,
+.teika-form-control-wrap .icon,
 .comment-form .control-wrap .icon {
 	position: absolute;
 	width: 45px;
@@ -2496,7 +2220,7 @@ input[type="email"],
 -webkit-border-bottom-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
-.wpcf7-form-control-wrap .icon:after,
+.teika-form-control-wrap .icon:after,
 .comment-form .control-wrap .icon:after {
 	content: "";
 	position: absolute;
@@ -2506,49 +2230,49 @@ input[type="email"],
 	border-left: 6px solid #f1f2f2;
 	margin-top: -6px
 }
-.wpcf7-form textarea,
+.teika-form textarea,
 .comment-form textarea {
 	width: 100%;
 	max-width: 100%;
 	margin: 5px 0 0 0;
 }
-.wpcf7-form select {
+.teika-form select {
 	width: 100%;
 	max-width: 100%;
 	margin: 5px 0 0 0;
 	padding: 8px;
 }
-.wpcf7-form input[type="checkbox"] {
+.teika-form input[type="checkbox"] {
 	width: auto
 }
-.wpcf7 form.wpcf7-form p {
+.teika form.teika-form p {
 	font-weight: 600;
 	margin: 0 0 20px 0 !important;
 	line-height: 18px;
 }
-.wpcf7-list-item-label {
+.teika-list-item-label {
 	font-weight: normal
 }
-.wpcf7-response-output {
+.teika-response-output {
 	display: none
 }
-.wpcf7-form .invalid {
+.teika-form .invalid {
 	color: #bf1515 !important
 }
-.wpcf7-not-valid {
+.teika-not-valid {
 	border: 1px solid #bf1515 !important
 }
-.wpcf7 span.wpcf7-not-valid-tip {
+.teika span.teika-not-valid-tip {
 	display: none
 }
-div.wpcf7-response-output {
+div.teika-response-output {
 	margin: 0px !important;
 	padding: 5px 10px !important;
 }
-div.wpcf7-mail-sent-ok,
-div.wpcf7-mail-sent-ng,
-div.wpcf7-spam-blocked,
-div.wpcf7-validation-errors {
+div.teika-mail-sent-ok,
+div.teika-mail-sent-ng,
+div.teika-spam-blocked,
+div.teika-validation-errors {
 	position: relative;
 	border: 1px solid #ddd !important;
 	display: block;
@@ -2569,7 +2293,7 @@ div.wpcf7-validation-errors {
 	text-align: center;
 	margin-bottom: 20px;
 }
-div.wpcf7-mail-sent-ok {
+div.teika-mail-sent-ok {
 	background-image: linear-gradient(bottom, #e9f2d2 0%, #FFFFFF 100%);
 	background-image: -o-linear-gradient(bottom, #e9f2d2 0%, #FFFFFF 100%);
 	background-image: -moz-linear-gradient(bottom, #e9f2d2 0%, #FFFFFF 100%);
@@ -2579,7 +2303,7 @@ div.wpcf7-mail-sent-ok {
 	border-color: #c0da66 !important;
 	color: #88b12b;
 }
-div.wpcf7-mail-sent-ng {
+div.teika-mail-sent-ng {
 	background-image: linear-gradient(bottom, #ffe9e9 0%, #FFFFFF 100%);
 	background-image: -o-linear-gradient(bottom, #ffe9e9 0%, #FFFFFF 100%);
 	background-image: -moz-linear-gradient(bottom, #ffe9e9 0%, #FFFFFF 100%);
@@ -2589,7 +2313,7 @@ div.wpcf7-mail-sent-ng {
 	border-color: #e99f9f !important;
 	color: #d25c5a;
 }
-div.wpcf7-spam-blocked {
+div.teika-spam-blocked {
 	background-image: linear-gradient(bottom, #fbf6e3 0%, #FFFFFF 100%);
 	background-image: -o-linear-gradient(bottom, #fbf6e3 0%, #FFFFFF 100%);
 	background-image: -moz-linear-gradient(bottom, #fbf6e3 0%, #FFFFFF 100%);
@@ -2599,7 +2323,7 @@ div.wpcf7-spam-blocked {
 	border-color: #efd877 !important;
 	color: #c4a80a;
 }
-div.wpcf7-validation-errors {
+div.teika-validation-errors {
 	background-image: linear-gradient(bottom, #fbf6e3 0%, #FFFFFF 100%);
 	background-image: -o-linear-gradient(bottom, #fbf6e3 0%, #FFFFFF 100%);
 	background-image: -moz-linear-gradient(bottom, #fbf6e3 0%, #FFFFFF 100%);
@@ -2609,17 +2333,17 @@ div.wpcf7-validation-errors {
 	border-color: #efd877 !important;
 	color: #c4a80a;
 }
-.wpcf7 {
+.teika {
 	margin-bottom: -20px
 }
-.wpcf7 .row-fluid,
+.teika .row-fluid,
 .comment-form .row-fluid {
 	margin: 0 -10px
 }
 .comment-form .row-fluid {
 	margin-bottom: 20px
 }
-.wpcf7 .row-fluid [class*="span"],
+.teika .row-fluid [class*="span"],
 .comment-form .row-fluid [class*="span"] {
 	padding: 0 10px!important
 }
