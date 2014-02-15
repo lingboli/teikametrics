@@ -299,7 +299,7 @@ textarea {
 /*------------------------------------------------*/
 
 #header {
-	position: fixed;
+	position: relative;
 	top: 0;
 	width: 100%;
 	overflow: visible;
@@ -667,7 +667,9 @@ body.expanded #mobile_navigation {
 
 #header.sticky #main_navigation {
 	height: 60px;
-	background-color: rgba(255,255,255,0.9);}
+	position:fixed;
+	background-color: rgba(255,255,255,0.9);
+	}
 #header.sticky #main_navigation #logo, #header.sticky ul.main_menu > li > a {
 	line-height: 40px;
 	height: 60px;
@@ -676,7 +678,7 @@ body.expanded #mobile_navigation {
 
 #header.sticky #request-demo {
 	height: 60px;
-line-height: 56px;
+	line-height: 56px;
 
 }
 
@@ -792,11 +794,11 @@ line-height: 56px;
 /*------------------------------------------------*/
 
 #titlebar {
+
 	background: #F5F2EF;
-	padding: 35px 0 40px 0;
-	position: relative
-;
-	margin-top: 16px;
+	padding: 40px 0 40px 0;
+	position: relative;
+	margin-top: auto;
 }
 #titlebar.style2 .container > .row-fluid {
 	position: relative;
