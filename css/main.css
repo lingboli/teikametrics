@@ -2815,5 +2815,10 @@ margin-bottom: 20px;
 	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	border-top: 2px solid transparent;
 	transition: color 0.3s ease;
+	cursor: pointer;
 
+}
+
+.squeeze-nav a:hover {
+	color:#000;
 }
