@@ -2789,4 +2789,31 @@ margin-bottom: 20px;
 	padding-right:20px;
 }
 
+#squeeze_container  {
+	background: #f6f8f8;
+	padding:10px;
+	border-bottom:1px solid #ccc;
+}
 
+.squeeze-header {
+	background: #f6f8f8;
+	padding:10px;
+	border-bottom:1px solid #ccc;
+}
+
+.squeeze-nav a {
+
+	font-size: 12px;
+	font-weight: normal;
+	height: 62px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 0px;
+	letter-spacing: .08em;
+	color: #afafaf;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border-top: 2px solid transparent;
+	transition: color 0.3s ease;
+
+}
