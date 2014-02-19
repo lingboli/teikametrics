@@ -70,12 +70,13 @@
 	letter-spacing: .12em;
 	font-size: 16px;
 	text-transform: uppercase;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 500; 
+	font-style: normal;
 	line-height: 20px;
 	margin: 10px auto 10px;
 	overflow: hidden;
 	color: #0badcf;
-	font-weight: 500;
 }
 .stunning_text h4.first-title {
 	margin: 0 auto 10px
@@ -125,16 +126,18 @@
 	margin: 0;
 	color: #564c41;
 	letter-spacing: .05em;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Helvetica", sans-serif!important;
+	font-family: 'Gotham SSm 3r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 300; 
+	font-style: normal;
 	text-transform: uppercase;
-	font-weight: 300;
 	-webkit-font-smoothing: antialiased!important;
 	min-width: 400px
 }
 .stunning_text .big-title.extra-large-text > div > span {
 	font-size: 39px;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif!important;
-	color: #555;
+	font-family: 'Gotham SSm 4r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
 	min-width: 600px;
 	letter-spacing: 4px
 }
@@ -2593,8 +2596,9 @@ body * div .ls-wp-container .ls-layer > *,
 	line-height: 39px;
 	letter-spacing: 0;
 	color: #fff;
-	font-weight: normal;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Gotham SSm 4r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
 	text-align: center;
 	text-transform: none;
 	-webkit-font-smoothing: subpixel!important;
@@ -2617,7 +2621,9 @@ body * div .ls-wp-container .ls-layer > *,
 	font-size: 23px;
 	line-height: 1.65!important;
 	color: #fff;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Gotham SSm 4r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
 	text-align: center;
 	width: 541px;
 

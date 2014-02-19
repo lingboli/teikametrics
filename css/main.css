@@ -23,16 +23,19 @@ body {
 	position: relative;
 }
 
+
+
 img {
 	-ms-interpolation-mode: bicubic;
 }
 body {
-	font-family: 'Gotham SSm A', 'Gotham SSm B', helvetica, sans-serif;
+	font-family: 'Gotham SSm 4r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
 	font-size: 14px;
 	line-height: 21px;
 	background-color: white;
 	width: 100%;
-	font-weight: 400;
 	letter-spacing: 0em;
 	-webkit-transition: margin-left 0.3s;
 	-moz-transition: margin-left 0.3s;
@@ -80,25 +83,22 @@ h6 {
 	margin: 0 0 20px;
 	padding: 0;
 	-webkit-font-smoothing: subpixel-antialiased!important;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-weight: 300;
+	font-family: 'Gotham SSm 3r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 300; 
+	font-style: normal;
 }
-h4 a,
-h3 a,
-h2 a,
-h1 a,
-h5 a {}
+
 h1 {
 	font-size: 36px;
 	line-height: 130%;
 	letter-spacing: 0px;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
 }
 h2 {
 	font-size: 28px;
 	line-height: 125%;
 	letter-spacing: 0px;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	f
 }
 h3 {
 	font-size: 18px !important;
@@ -134,14 +134,14 @@ h2.textuppercase {
 	letter-spacing: 2px
 }
 h3.textuppercase {
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
 	letter-spacing: 2px
 }
 h4.textuppercase,
 h5.textuppercase,
 h6.textuppercase {
 	letter-spacing: .1em;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
 	opacity: .7;
 	-webkit-transition: opacity 0.8s;
 	-moz-transition: opacity 0.8s;
@@ -174,10 +174,11 @@ strong {
 p {
 	padding: 0;
 	margin: 0 0 20px;
-	font-weight: 300;
 	line-height: 24px;
 	letter-spacing: 0;
-	font-family: 'Gotham SSm A', 'Gotham Narrow SSm B',helvetica,sans-serif;
+	font-family: 'Gotham SSm 3r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 300; 
+	font-style: normal;
 	color: #555;
 }
 p + p {
@@ -435,12 +436,14 @@ ul.main_menu > li.no-click  {
 	margin: 8px 29px 0 0;
 	height: 62px;
 	letter-spacing: 1px;
-	font-weight:500;
+	
 	text-transform: uppercase;
 	padding: 0px;
 	letter-spacing: .08em;
 	color: #afafaf;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 500; 
+	font-style: normal;
 	border-top: 2px solid transparent;
 	transition: color 0.3s ease;
 }
@@ -593,13 +596,15 @@ ul.main_menu > li.no-click  {
 }
 #mobile_navigation .mobile_menu > li > a {
     color: #666;
-    font-weight: 500;
+    
     font-size: 13px;
     line-height: 55px;
     height: 55px;
     display: block;
     position: relative;
-    font-family: 'Gotham SSm A', 'Gotham SSm B', Georgia, "Times New Roman", Times, serif;
+    font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 500; 
+	font-style: normal;
 	border-bottom:1px solid #e5e5e5;
 	border-right:3px solid transparent;
 	padding:0 20px;
@@ -828,12 +833,14 @@ body.expanded #mobile_navigation {
 	color: #999;
 	margin: 0px;
 	font-size: 18px;
-	font-weight: 400;
+	
 	width: 50%;
 	float: left;
 	text-align: left;
 	letter-spacing: 0px;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Gotham SSm 4r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
 }
 #titlebar.style2 h1 {
 	text-align: center;
@@ -858,14 +865,16 @@ body.expanded #mobile_navigation {
 }
 
 #titlebar.style2 h2 {
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Open Sans", "Lucida Sans", Helvetica;
+	font-family: 'Gotham SSm 4r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
 	color: #4f86a4;
 	font-size: 19px;
 	line-height: 40px;
 	text-align: center;
 	-webkit-font-smoothing: antialiased!important;
 	-webkit-backface-visibility: visible!important;
-	font-weight: 400;}
+	}
 #titlebar #breadcrumbs {
 	color: #999;
 	margin: 0;
@@ -1588,7 +1597,9 @@ img.attachment-blog-medium {
 	margin: 0;
 	margin-bottom: 20px!important;
 	position: relative;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 500; 
+	font-style: normal;
 	color: #444;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -1929,8 +1940,9 @@ ul.widget-posts {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 16px;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-weight: 500;
+	font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 500; 
+	font-style: normal;
 }
 #footer .row-fluid {
 	margin: 0 -15px!important
@@ -2412,8 +2424,9 @@ position: absolute !important;
 
 .browser:before, .fallback_to_browser:before {
 	content: "ooo";
-	font-family: "Gotham HTF";
-	font-weight: 100;
+	font-family: 'Gotham SSm 3r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 300; 
+	font-style: normal;
 	font-size: 18px;
 	line-height: 18px;
 	position: absolute;
@@ -2807,12 +2820,14 @@ margin-bottom: 20px;
 	font-weight: normal;
 	height: 62px;
 	letter-spacing: 1px;
-	font-weight: 500;
+	
 	text-transform: uppercase;
 	padding: 0px;
 	letter-spacing: .08em;
 	color: #afafaf;
-	font-family: 'Gotham SSm A', 'Gotham SSm B', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Gotham SSm 5r', 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 500; 
+	font-style: normal;
 	border-top: 2px solid transparent;
 	transition: color 0.3s ease;
 	cursor: pointer;
@@ -2821,4 +2836,10 @@ margin-bottom: 20px;
 
 .squeeze-nav a:hover {
 	color:#000;
+}
+
+/* old ie versions */
+.old-ie * {
+   font-weight: normal !important;
+   font-style:  normal !important;
 }
